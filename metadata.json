@@ -1,0 +1,10 @@
+{
+  "name": "ODP Coverage Checker Kuliah",
+  "description": "Aplikasi pengecekan jangkauan dan status port Optical Distribution Point (ODP) terdekat menggunakan Google Maps API.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

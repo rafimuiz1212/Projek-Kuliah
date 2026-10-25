@@ -1,0 +1,8 @@
+{
+  "smartOltDomain": "example.smartolt.com",
+  "smartOltKey": "",
+  "genieAcsHost": "http://localhost:7557",
+  "genieAcsUser": "",
+  "genieAcsPass": "",
+  "nocPassword": "noc123"
+}

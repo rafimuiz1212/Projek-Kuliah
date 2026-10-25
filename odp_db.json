@@ -1,0 +1,588 @@
+[
+  {
+    "id": "odp-1",
+    "name": "ODP-MNT-01/08",
+    "lat": -6.1842,
+    "lng": 106.8228,
+    "totalPorts": 8,
+    "availablePorts": 4,
+    "customers": [
+      {
+        "id": "c1-1",
+        "port": 1,
+        "name": "Bpk. Hendra Wijaya (John)",
+        "status": "online",
+        "onuSn": "ZTEG11223344",
+        "onuModel": "ZTE F609 V5",
+        "signal": "-19.2 dBm",
+        "ipAddress": "10.20.1.14",
+        "package": "50 Mbps Home",
+        "address": "Jl. Menteng No. 12"
+      },
+      {
+        "id": "c1-2",
+        "port": 2,
+        "name": "Ibu Ratna Kumala (Alice)",
+        "status": "online",
+        "onuSn": "ZTEG11223345",
+        "onuModel": "ZTE F670L",
+        "signal": "-20.1 dBm",
+        "ipAddress": "10.20.1.18",
+        "package": "30 Mbps Home",
+        "address": "Jl. Menteng No. 14"
+      },
+      {
+        "id": "c1-3",
+        "port": 3,
+        "name": "Bpk. Bambang Sutrisno (Bob)",
+        "status": "dyinggasp",
+        "onuSn": "ZTEG11223346",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-18.5 dBm (Power Loss)",
+        "ipAddress": "10.20.1.22",
+        "package": "100 Mbps Pro",
+        "address": "Jl. Menteng No. 16B"
+      },
+      {
+        "id": "c1-4",
+        "port": 4,
+        "name": "Klinik Pratama Sehat (Charlie)",
+        "status": "offline",
+        "onuSn": "ZTEG11223347",
+        "onuModel": "Fiberhome HG6243C",
+        "signal": "LOS (Kabel Putus / Redaman)",
+        "ipAddress": "10.20.1.30",
+        "package": "50 Mbps Bisnis",
+        "address": "Jl. Menteng No. 20"
+      }
+    ]
+  },
+  {
+    "id": "odp-2",
+    "name": "ODP-MNT-02/16",
+    "lat": -6.1855,
+    "lng": 106.8242,
+    "totalPorts": 16,
+    "availablePorts": 0,
+    "customers": [
+      {
+        "id": "c2-1",
+        "port": 1,
+        "name": "Toko Berkah Menteng",
+        "status": "online",
+        "onuSn": "ZTEG22000001",
+        "onuModel": "ZTE F609",
+        "signal": "-21.4 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c2-2",
+        "port": 2,
+        "name": "Bpk. Agus Santoso",
+        "status": "online",
+        "onuSn": "ZTEG22000002",
+        "onuModel": "ZTE F609",
+        "signal": "-22.0 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-3",
+        "port": 3,
+        "name": "Ibu Dewi Lestari",
+        "status": "online",
+        "onuSn": "ZTEG22000003",
+        "onuModel": "Huawei HG8245",
+        "signal": "-19.5 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-4",
+        "port": 4,
+        "name": "Warkop Sedap Malam",
+        "status": "online",
+        "onuSn": "ZTEG22000004",
+        "onuModel": "ZTE F670L",
+        "signal": "-20.8 dBm",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c2-5",
+        "port": 5,
+        "name": "Bpk. Rahmat Hidayat",
+        "status": "dyinggasp",
+        "onuSn": "ZTEG22000005",
+        "onuModel": "ZTE F609",
+        "signal": "Dying Gasp (PLN Padam)",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-6",
+        "port": 6,
+        "name": "Kos Menteng Asri",
+        "status": "offline",
+        "onuSn": "ZTEG22000006",
+        "onuModel": "Huawei HG8245H",
+        "signal": "LOS (-32 dBm)",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c2-7",
+        "port": 7,
+        "name": "Apotek Sehat Keluarga",
+        "status": "online",
+        "onuSn": "ZTEG22000007",
+        "onuModel": "ZTE F609",
+        "signal": "-21.1 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c2-8",
+        "port": 8,
+        "name": "Bpk. Tono Sudirgo",
+        "status": "online",
+        "onuSn": "ZTEG22000008",
+        "onuModel": "ZTE F609",
+        "signal": "-22.5 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-9",
+        "port": 9,
+        "name": "Ibu Maya Angelina",
+        "status": "online",
+        "onuSn": "ZTEG22000009",
+        "onuModel": "Fiberhome",
+        "signal": "-23.0 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-10",
+        "port": 10,
+        "name": "Rumah Makan Padang",
+        "status": "online",
+        "onuSn": "ZTEG22000010",
+        "onuModel": "ZTE F670L",
+        "signal": "-20.4 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c2-11",
+        "port": 11,
+        "name": "Bpk. Eko Prasetyo",
+        "status": "dyinggasp",
+        "onuSn": "ZTEG22000011",
+        "onuModel": "Huawei HG8245",
+        "signal": "Dying Gasp (Power Down)",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-12",
+        "port": 12,
+        "name": "Ibu Rini Astuti",
+        "status": "online",
+        "onuSn": "ZTEG22000012",
+        "onuModel": "ZTE F609",
+        "signal": "-19.9 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c2-13",
+        "port": 13,
+        "name": "Bpk. Dedi Suryadi",
+        "status": "online",
+        "onuSn": "ZTEG22000013",
+        "onuModel": "ZTE F609",
+        "signal": "-20.7 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-14",
+        "port": 14,
+        "name": "Percetakan Prima Offset",
+        "status": "online",
+        "onuSn": "ZTEG22000014",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-21.9 dBm",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c2-15",
+        "port": 15,
+        "name": "Laundry Kilat Express",
+        "status": "online",
+        "onuSn": "ZTEG22000015",
+        "onuModel": "ZTE F609",
+        "signal": "-22.3 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c2-16",
+        "port": 16,
+        "name": "Bpk. Farhan Hakim",
+        "status": "offline",
+        "onuSn": "ZTEG22000016",
+        "onuModel": "ZTE F609",
+        "signal": "LOS",
+        "package": "50 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "odp-3",
+    "name": "ODP-MNT-03/08",
+    "lat": -6.1868,
+    "lng": 106.8215,
+    "totalPorts": 8,
+    "availablePorts": 2,
+    "customers": [
+      {
+        "id": "c3-1",
+        "port": 1,
+        "name": "Pelanggan Alpha (A)",
+        "status": "online",
+        "onuSn": "ZTEG33000001",
+        "onuModel": "ZTE F609",
+        "signal": "-20.5 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c3-2",
+        "port": 2,
+        "name": "Pelanggan Beta (B)",
+        "status": "online",
+        "onuSn": "ZTEG33000002",
+        "onuModel": "ZTE F609",
+        "signal": "-21.2 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c3-3",
+        "port": 3,
+        "name": "Pelanggan Gamma (C)",
+        "status": "online",
+        "onuSn": "ZTEG33000003",
+        "onuModel": "Huawei HG8245",
+        "signal": "-19.8 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c3-4",
+        "port": 4,
+        "name": "Pelanggan Delta (D)",
+        "status": "offline",
+        "onuSn": "ZTEG33000004",
+        "onuModel": "ZTE F609",
+        "signal": "LOS (Modem Mati)",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c3-5",
+        "port": 5,
+        "name": "Pelanggan Epsilon (E)",
+        "status": "dyinggasp",
+        "onuSn": "ZTEG33000005",
+        "onuModel": "ZTE F670L",
+        "signal": "Dying Gasp",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c3-6",
+        "port": 6,
+        "name": "Pelanggan Zeta (F)",
+        "status": "online",
+        "onuSn": "ZTEG33000006",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-23.4 dBm",
+        "package": "50 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "odp-4",
+    "name": "ODP-MNT-04/08",
+    "lat": -6.1825,
+    "lng": 106.825,
+    "totalPorts": 8,
+    "availablePorts": 1,
+    "customers": [
+      {
+        "id": "c4-1",
+        "port": 1,
+        "name": "Bpk. Suryo Subroto",
+        "status": "online",
+        "onuSn": "HWTC44000001",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-21.3 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c4-2",
+        "port": 2,
+        "name": "Ibu Kartika Sari",
+        "status": "online",
+        "onuSn": "HWTC44000002",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-22.2 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c4-3",
+        "port": 3,
+        "name": "Studio Musik Nada",
+        "status": "online",
+        "onuSn": "HWTC44000003",
+        "onuModel": "ZTE F670L",
+        "signal": "-19.7 dBm",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c4-4",
+        "port": 4,
+        "name": "Bpk. Aris Munandar",
+        "status": "dyinggasp",
+        "onuSn": "HWTC44000004",
+        "onuModel": "Huawei HG8245H",
+        "signal": "Dying Gasp",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c4-5",
+        "port": 5,
+        "name": "Ibu Lilis Suryani",
+        "status": "online",
+        "onuSn": "HWTC44000005",
+        "onuModel": "ZTE F609",
+        "signal": "-20.1 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c4-6",
+        "port": 6,
+        "name": "Warung Kopi Menteng",
+        "status": "online",
+        "onuSn": "HWTC44000006",
+        "onuModel": "ZTE F609",
+        "signal": "-21.5 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c4-7",
+        "port": 7,
+        "name": "Bpk. Rudi Hermawan",
+        "status": "offline",
+        "onuSn": "HWTC44000007",
+        "onuModel": "Huawei HG8245",
+        "signal": "LOS",
+        "package": "30 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "odp-5",
+    "name": "ODP-MNT-05/16",
+    "lat": -6.1812,
+    "lng": 106.8202,
+    "totalPorts": 16,
+    "availablePorts": 6,
+    "customers": [
+      {
+        "id": "c5-1",
+        "port": 1,
+        "name": "Ibu Indah Permatasari",
+        "status": "online",
+        "onuSn": "HWTC55000001",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-20.0 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c5-2",
+        "port": 2,
+        "name": "Ibu Sari Widuri",
+        "status": "online",
+        "onuSn": "HWTC55000002",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-19.1 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c5-3",
+        "port": 3,
+        "name": "Bpk. Joko Anwar",
+        "status": "dyinggasp",
+        "onuSn": "HWTC55000003",
+        "onuModel": "ZTE F609",
+        "signal": "Dying Gasp (PLN Padam)",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c5-4",
+        "port": 4,
+        "name": "Bpk. Wahyu Utomo",
+        "status": "online",
+        "onuSn": "HWTC55000004",
+        "onuModel": "Huawei HG8245",
+        "signal": "-21.8 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c5-5",
+        "port": 5,
+        "name": "Kantor Notaris Menteng",
+        "status": "online",
+        "onuSn": "HWTC55000005",
+        "onuModel": "ZTE F670L",
+        "signal": "-18.9 dBm",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c5-6",
+        "port": 6,
+        "name": "Ibu Fitri Handayani",
+        "status": "online",
+        "onuSn": "HWTC55000006",
+        "onuModel": "ZTE F609",
+        "signal": "-22.4 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c5-7",
+        "port": 7,
+        "name": "Bpk. Hendro Kusumo",
+        "status": "offline",
+        "onuSn": "HWTC55000007",
+        "onuModel": "Fiberhome",
+        "signal": "LOS (Kabel Putus)",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c5-8",
+        "port": 8,
+        "name": "Ibu Ningsih",
+        "status": "online",
+        "onuSn": "HWTC55000008",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-21.0 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c5-9",
+        "port": 9,
+        "name": "Bpk. Yudi Pratama",
+        "status": "online",
+        "onuSn": "HWTC55000009",
+        "onuModel": "ZTE F609",
+        "signal": "-20.3 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c5-10",
+        "port": 10,
+        "name": "Ibu Tari Agustina",
+        "status": "online",
+        "onuSn": "HWTC55000010",
+        "onuModel": "ZTE F670L",
+        "signal": "-19.6 dBm",
+        "package": "50 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "odp-6",
+    "name": "ODP-MNT-06/08",
+    "lat": -6.1859,
+    "lng": 106.8188,
+    "totalPorts": 8,
+    "availablePorts": 0,
+    "customers": [
+      {
+        "id": "c6-1",
+        "port": 1,
+        "name": "Bpk. Bagus Priyadi (P1)",
+        "status": "online",
+        "onuSn": "HWTC66000001",
+        "onuModel": "Huawei HG8245",
+        "signal": "-18.9 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c6-2",
+        "port": 2,
+        "name": "Ibu Clara Shinta (P2)",
+        "status": "online",
+        "onuSn": "HWTC66000002",
+        "onuModel": "ZTE F609",
+        "signal": "-19.4 dBm",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c6-3",
+        "port": 3,
+        "name": "Bpk. Danang Joyo (P3)",
+        "status": "dyinggasp",
+        "onuSn": "HWTC66000003",
+        "onuModel": "ZTE F609",
+        "signal": "Dying Gasp",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c6-4",
+        "port": 4,
+        "name": "Ibu Erika Permata (P4)",
+        "status": "online",
+        "onuSn": "HWTC66000004",
+        "onuModel": "Huawei HG8245H",
+        "signal": "-21.3 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c6-5",
+        "port": 5,
+        "name": "Bpk. Faisal Akbar (P5)",
+        "status": "online",
+        "onuSn": "HWTC66000005",
+        "onuModel": "ZTE F670L",
+        "signal": "-19.8 dBm",
+        "package": "100 Mbps"
+      },
+      {
+        "id": "c6-6",
+        "port": 6,
+        "name": "Ibu Gina Novita (P6)",
+        "status": "online",
+        "onuSn": "HWTC66000006",
+        "onuModel": "Huawei HG8245",
+        "signal": "-20.5 dBm",
+        "package": "50 Mbps"
+      },
+      {
+        "id": "c6-7",
+        "port": 7,
+        "name": "Bpk. Hari Suwandi (P7)",
+        "status": "offline",
+        "onuSn": "HWTC66000007",
+        "onuModel": "ZTE F609",
+        "signal": "LOS",
+        "package": "30 Mbps"
+      },
+      {
+        "id": "c6-8",
+        "port": 8,
+        "name": "Ibu Hani Rosalina (P8)",
+        "status": "online",
+        "onuSn": "HWTC66000008",
+        "onuModel": "ZTE F609",
+        "signal": "-21.7 dBm",
+        "package": "30 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "odp-1792919250021-kbta2",
+    "name": "CJR-SLP 1-D01-01",
+    "lat": -6.817178,
+    "lng": 107.135908,
+    "totalPorts": 8,
+    "availablePorts": 8
+  }
+]
